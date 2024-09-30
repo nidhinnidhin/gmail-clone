@@ -1,0 +1,259 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+button {
+  border: none;
+  background-color: transparent;
+}
+#question-mark-icon {
+  color: gray;
+  font-size: 20px;
+}
+.body-wrapper {
+}
+.sidebar {
+  width: 21%;
+}
+.sidebar-list-item-btn {
+  margin: 5px 10px;
+}
+.sidebar-list-item {
+  padding: 0px 10px;
+  cursor: pointer;
+}
+.sidebar-list-item:hover {
+  background-color: rgb(231, 234, 234);
+  border-radius: 0px 20px 20px 0px;
+}
+.compose-mail-btn {
+  padding: 15px 20px;
+  background-color: #c2e7ff;
+  border: none;
+  border-radius: 15px;
+  margin: 10px 5px;
+}
+.compose-mail-btn:hover{
+    box-shadow: 3px 3px 3px rgba(81, 80, 80, 0.3);
+}
+.label-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 25px;
+  font-weight: 500;
+  color: rgb(54, 53, 53);
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.label-btn-plus {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(77, 76, 76);
+}
+.mails-wrapper {
+  background-color: #fff;
+  height: 87vh;
+  overflow-y: scroll;
+  border-radius: 10px;
+  margin: 5px 0px;
+}
+.mails-header {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 15px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #fff;
+}
+.mails-header-left {
+  display: flex;
+}
+.mails-header-right {
+  display: flex;
+}
+.select {
+  display: flex;
+  align-items: center;
+}
+.checkbox {
+  width: 15px;
+  height: 15px;
+}
+.mails-header-right-btn {
+  color: gray;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+.mails-header-right-btn:hover {
+  background-color: rgb(199, 198, 198);
+  color: rgb(103, 101, 101);
+}
+.tabs {
+  display: flex;
+  border-bottom: 0.5px solid #ccc;
+}
+
+.tab-link {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px 20px;
+  text-align: start;
+  width: 240px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.tab-link:hover {
+  background-color: #ddd;
+}
+
+.tab-link.active {
+  color: blue;
+  background-color: #fff;
+  border-bottom: 3px solid #768ee4;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px;
+  width: 250px;
+  padding-bottom: 10px;
+}
+.tab-text {
+  margin-left: 15px;
+}
+.chip-green {
+  background-color: green;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 13px;
+  padding: 0px 5px;
+}
+.chip-blue {
+  background-color: rgb(78, 120, 210);
+  color: #fff;
+  border-radius: 8px;
+  font-size: 13px;
+  padding: 0px 5px;
+}
+.tab-description {
+  color: rgb(172, 169, 169);
+  font-size: 12px;
+}
+.mail-list-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.mail-from {
+  width: 280px;
+  display: flex;
+  align-items: center;
+}
+.mail-checkbox {
+  margin: 0px 13px;
+}
+.mail-title {
+  font-size: 14px;
+  margin: 0px 10px;
+}
+.mail-title-not-viewed {
+  font-size: 14px;
+  margin: 0px 10px;
+  font-weight: 600;
+}
+.mail-right {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.mail-date {
+  font-size: 13px;
+  width: 10%;
+  text-align: center;
+}
+.mail-date-not-viewed {
+  font-size: 13px;
+  width: 10%;
+  text-align: center;
+  font-weight: 600;
+}
+.mail-description-company {
+  color: rgb(95, 95, 95);
+  font-size: 14px;
+}
+.mail-description {
+  font-size: 15px;
+}
+.mail-description-not-viewed {
+  font-size: 15px;
+  font-weight: 600;
+}
+.mail-list-item {
+  padding: 10px 0px;
+  cursor: pointer;
+}
+.mail-list-item:hover {
+  box-shadow: 3px 3px 3px rgba(81, 80, 80, 0.3);
+}
+hr {
+  margin: 0;
+  height: 0.5px;
+  background-color: #a4a2a2;
+  border: none;
+}
+.mails-bottom-section{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10px;
+}
+.mails-bottom-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  color: rgb(108, 107, 107);
+}
+a{
+  font-size: 13px;
+  text-decoration: none;
+  color: gray;
+}
+a:hover{
+  text-decoration: underline;
+  color: black;
+}
+.mails-bottom-end-text{
+  font-size: 13px;
+  color: gray;
+}
+.end{
+  display: flex;
+  flex-direction: column;
+  align-items:end;
+}
+progress {
+  width: 100%;
+  height: 6px;
+  margin-left: 8px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+progress::-webkit-progress-bar {
+  background-color: #d3d3d3;
+}
+progress::-webkit-progress-value {
+  background-color: rgb(123, 120, 120); 
+  border-radius: 10px;
+}
